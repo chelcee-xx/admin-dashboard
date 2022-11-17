@@ -12,7 +12,7 @@ import { DarkModeContext } from "../context/darkModeContext";
 
 const Navbar = () => {
 
-  const {darkMode , dispatch} = useContext(DarkModeContext);
+  const {dispatch} = useContext(DarkModeContext);
 
   return (
     <div className="navbar">
@@ -47,7 +47,7 @@ const Navbar = () => {
           </div>
           <div className="item">
            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwvwRlfKg5N6vZMYTGePknchqhtswYvFUkMA&usqp=CAU"
-            className="avatar"
+            className="avatar" alt=""
            />
           </div>
         </div>
